@@ -5,4 +5,12 @@ public class Radio {
 	public boolean prender;
 	public boolean apagar;
 	public String cambioFrecuencia;
+	
+	public Radio() {
+		frecAdelante = "";
+		frecAtras = "";
+		prender = false;
+		apagar = false;
+		cambioFrecuencia = "";
+	}
 }
